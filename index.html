@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Wellness Project</title>
+</head>
+<body>
+    <header class="header1">
+        <h1>Mental Wellness</h1>
+        <h2>Want to feel better?</h2>
+        <button id="button1"><a href="secondpage.html">I'm ready!!</a></button>
+    </header>
+    <h2 class="msubtitle">3 Simple Activities to Improve Mental Health</h2>
+    <div class="container">
+        <div class="advise">
+            <div class="image-wrapper">
+                <img class="photo" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=499&q=80" alt="Deep breath">
+            </div>
+            <h3>Deep breathing</h3>
+            <p>Stress contributes to common mental health struggles like anxiety and depression. But it can also have a lot of negative effects   on you physically — including suppressing your immune system, which can cause you to become sick more frequently.</p>
+            <p>While stress can’t always be avoided, it helps to establish healthy ways of responding to it. One of the simplest things you can do from literally anywhere is practice deep breathing. By inhaling so that the air coming in through your nose fully fills your lungs, you can help slow your heart rate and lower or stabilize your blood pressure.</p>
+            According to the American Institute of Stress, by increasing the supply of oxygen you send to your brain, you can stimulate your parasympathetic nervous system. This helps promote a state of serenity. Regularly practicing breathing techniques can help you feel connected to your body, driving your awareness away from the worries racing through your mind.
+            In high-stress moments, try to find a quiet space where you can practice this type of deep breathing, and see how your body responds with a new sense of calmness.</p>
+        </div>
+        <div class="advise">
+            <div class="image-wrapper">
+                <img class="photo" src="https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Aerobics">
+            </div>
+            <h3>Exercise</h3>
+            <p>Aerobic exercise is one of those activities that may take some internal coaxing to get yourself started — but once you’ve wrapped up a workout, you’ll be happy you did it. That’s because exercise has actually been proven to boost your mood.
+                Evidence has suggested that there are many mental health benefits of physical exercise. Aerobic activities have been found to reduce anxiety and depression. In addition, exercise can yield the following benefits:
+                <ul>
+                <li>Better sleep</li>
+                <li>Natural mood boost</li>
+                <li>Enhanced energy and stamina</li>
+                <li>Heightened mental alertness</li>
+                <li>Increased social activity</li>
+                <li>Improved confidence</li>
+                <li>Reduced cholesterol and improved cardiovascular health</li>
+                </ul>
+                From jogging or walking to dancing, biking or swimming, there are many mental health activities that can lead to these positive effects. So, if you’re noticing your anxiety levels beginning to rise, it might be a signal to jump back into a regular exercise routine to get your blood pumping and sweat the stress away.</p>
+        </div>
+        <div class="advise">
+            <div class="image-wrapper">
+                <img class="photo" src="https://images.unsplash.com/photo-1611843467160-25afb8df1074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+            </div>
+            <h3>Gardening</h3>
+            <p>Tending to a garden is a hobby many people partake in to not only spruce up the landscape around them but also to calm their minds. In addition to providing exposure to fresh air, vitamin D and some light aerobic movement, getting outside for some gardening and/or yard work can positively impact your mental health in a few different ways.
+                
+                In fact, it has been proven to be an effective method for combating stress. In fact, studies have found that it can reduce cortisol levels — the body’s main stress hormone — in participants’ blood samples. One hospital study also reported that 79 percent of patients expressed feeling more relaxed and calm after spending time in a garden.</p>
+                
+                <p>But the benefits don’t stop there. In addition to calming your mind, it’s been found that gardening can help prolong your attention span. A study published in the American Journal of Public Health revealed that spending time among greenery can result in a significant reduction of symptoms of ADHD — something that affects the mental well-being of millions across the country.
+                
+                If you start to feel like you can’t keep up with the world around you or you’re having trouble concentrating on simple tasks, consider taking some time to get outside, dig your fingers into some dirt and let Mother Earth work her magic on your mind.</p>
+        </div>
+    </div>
+    <div class="container2">
+        <h2 class="subtitle">Do you need extra help?</h2>
+        <h3>Fill out the form below and one of our professionals will reach out to you! </h3>
+        
+          <div class="formContainer">
+            <form onsubmit="onFormSubmit();return false" class="subscribe-form">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Enter first name" required>
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Enter last name" required>
+          
+              <label for="gender">Gender</label>
+              <select id="gender" name="gender" required>
+                <option value="blank"></option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="transg">Transgender</option>
+                <option value="nonbinary">Non-binary/non-conforming</option>
+                <option value="others">Others</option>
+                <option value="notrespond">Prefer not to respond</option>
+              </select>
+              
+              <label for="pnumber">Phone Number</label>
+              <input type="text" id="pnumber" name="phonenumber" placeholder="Enter your phone number" required>
+
+              <label for="email"> Email</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+              <label for="bday">Birthday</label>
+              <input type="date" id="bday" name="bday" required>
+
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+
+          <h2 class="subtitle">This is why we do what we do!</h2>
+          <div class="testimonials">
+            <div class="testimonial">
+                <div class="client-wrapper">
+                    <img class="client-photo" src="/images/img1.jpg" alt="">
+                </div>                
+                <p>"The service and honesty of the staff has always been consistently top notch. This is whyI would recommend this website and the services you provide."</p>
+            </div>
+            <div class="testimonial">
+                <div class="client-wrapper">
+                    <img class="client-photo" src="/images/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg" alt="">
+                </div>
+                <p>"Great communication and listening from the therapist and they really made me feel heard!"</p>
+            </div>
+            <div class="testimonial">
+                <div class="client-wrapper">
+                    <img class="client-photo" src="/images/warren-wong-VVEwJJRRHgk-unsplash.jpg" alt="">
+                </div>                
+                <p>"I will continue to be under the care of your team. They understand me and make me feel seem.".</p>
+            </div>
+        </div>
+    </div>
+        <footer class="footer-distributed">
+			<div class="footer-left">
+				<h3>Belaine<span>Trinidad</span></h3>
+				<p class="footer-links">
+					<a href="index.html">Home</a>
+					·
+					<a href="#">Terms and Conditions</a>
+					·
+					<a href="#">Privacy</a>
+				</p>
+				<p class="footer-company-name">By Belaine Trinidad © 2023</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+					<a href="#"><i class="fab fa-github"></i></a>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p>Contact Us</p>
+				<form onsubmit="onFormSubmit();return false"method="post">
+					<input type="text" name="email" placeholder="Email" required>
+					<textarea name="message" placeholder="Message" required></textarea>
+					<button>Send</button>
+				</form>
+			</div>
+		</footer>
+<script src="main.js"></script>
+</body>
+</html>
